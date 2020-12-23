@@ -20,6 +20,7 @@ noremap <Leader>- :resize -5<CR>
 noremap <Leader>, :vertical:resize -5<CR>
 noremap <Leader>. :vertical:resize +5<CR>
 
+noremap <Leader>w :History<CR>
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
@@ -28,3 +29,8 @@ map <C-l> <C-W>l
 inoremap II <Esc>I
 inoremap AA <Esc>A
 inoremap OO <Esc>O
+
+nnoremap <Leader>B :call vimspector#Launch()<CR>
+
+vnoremap > >gv
+vnoremap < <gv

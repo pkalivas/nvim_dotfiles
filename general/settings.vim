@@ -7,7 +7,6 @@ set softtabstop=4       " number of spaces in tab when editing
 set shiftwidth=4        " number of spaces to use for autoindent
 set expandtab           " tabs are space
 set autoindent
-set copyindent          " copy indent from the previous line
 set hidden
 set showcmd             " show command in bottom bar
 set cursorline          " highlight current line
@@ -24,7 +23,7 @@ set updatetime=100
 set timeoutlen=150
 set nowrap
 set incsearch           " search as characters are entered
-set hlsearch            " highlight matche
+set nohlsearch            " highlight matche
 set ignorecase          " ignore case when searching
 set smartcase           " ignore case if search pattern is lower case
 set cmdheight=2         " distance popups come up from

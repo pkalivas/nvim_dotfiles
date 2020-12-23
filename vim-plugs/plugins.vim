@@ -21,11 +21,11 @@ Plug 'junegunn/fzf.vim'
 Plug 'dense-analysis/ale'
 Plug 'airblade/vim-rooter'
 Plug 'mhinz/vim-startify'
-Plug 'voldikss/vim-floaterm'
-Plug 'justinmk/vim-sneak'
-Plug'Yggdroot/indentLine'
+Plug 'Yggdroot/indentLine'
 Plug 'liuchengxu/vista.vim'
 Plug 'morhetz/gruvbox'
+Plug 'mhinz/vim-signify'
+Plug 'puremourning/vimspector'
 call plug#end()
 
 

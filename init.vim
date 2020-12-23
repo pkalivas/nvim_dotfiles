@@ -20,7 +20,6 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/lightline.vim
 source $HOME/.config/nvim/plug-config/omnisharp.vim
+source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
-source $HOME/.config/nvim/plug-config/term.vim
-source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/lineindent.vim
